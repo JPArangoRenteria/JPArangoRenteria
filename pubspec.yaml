@@ -1,0 +1,30 @@
+name: flutter_login
+description: A login widget with login/signup functionalities to help speed up development
+version: 3.0.0-beta.2
+homepage: https://github.com/NearHuscarl/flutter_login
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.1.0
+  provider: ^6.0.1
+  another_transformer_page_view: ^1.0.1
+  another_flushbar: ^1.10.23
+  flutter_signin_button: ^2.0.0
+
+  # flutter_test from sdk depends on quiver
+  quiver: ^3.0.1
+  url_launcher: ^6.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.16
+  flutter_lints: ^1.0.4
+
+flutter:
+  assets:
+    - assets/images/ecorp.png
